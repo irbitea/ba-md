@@ -1,0 +1,45 @@
+.cartContainer {
+    padding: 20px;
+}
+
+.cartDetails {
+    flex: 3;
+    min-width: 60%;
+}
+
+.cartItemWrapper {
+    padding: 12px 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.paymentInfo {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.paymentHeading {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.paymentRow {
+    margin-bottom: 10px;
+}
+
+.paymentTotal {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.checkoutButton {
+    margin-top: 20px;
+}
+
+.productImage {
+    height: 60px;
+    width: auto;
+}

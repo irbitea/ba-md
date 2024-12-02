@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 64px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logoLink {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
