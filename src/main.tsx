@@ -7,10 +7,12 @@ import { Provider } from 'react-redux';
 import { store } from './store/store.ts';
 import { BrowserRouter } from 'react-router';
 
+const basename = "/ba-md";
+
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
         <Provider store={store}>
-            <BrowserRouter>
+            <BrowserRouter basename={basename}>
                 <App />
             </BrowserRouter>
         </Provider>
